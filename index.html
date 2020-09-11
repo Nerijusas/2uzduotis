@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<title>HTML form</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form>
+		<h3>Duomenų informacija</h3>
+			<fieldset>
+				<label>El. pašto adresas:<span style="color:red">*</span></label>
+				<input type="email" required>
+			</fieldset>
+			<fieldset>
+				<label>Slaptažodis:<span style="color:red">*</span></label>
+				<input type="password" required>
+			</fieldset>
+			<fieldset>
+				<label>Patvirtniti slaptažodį:<span style="color:red">*</span></label>
+				<input type="password" required>
+			</fieldset>
+			<fieldset>
+				<input type="checkbox" required>
+				<label>Sutinku su <u>taisyklėmis</u></label>
+			</fieldset>
+			<h3>Pasitkrinkite sąskaitos adresą</h3>
+			<fieldset>
+				<label>Lytis:<span style="color:red">*</span></label>
+				<select>
+					<option>Vyras</option>
+					<option>Moteris</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Vardas:<span style="color:red">*</span></label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pavardė:<span style="color:red">*</span></label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Gatvė, namo(buto) nr.:<span style="color:red">*</span></label>
+				<input type="text" required>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pašto kodas:<span style="color:red">*</span></label>
+				<input type="text" required>
+				<u>Pašto kodo paieška</u>
+			</fieldset>
+			<fieldset>
+				<label>Miestas:<span style="color:red">*</span></label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Šalis:<span style="color:red">*</span></label>
+				<select>
+					<option selected disabled>--</option>
+					<option>Lietuva</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Telefonas:<span style="color:red">*</span></label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Papildoma inforamcija:</label>
+				<textarea></textarea>
+			</fieldset>
+			<p style="color:gray">Prašome užpildyti visus pažymėtus laukus <span style="color:red">*</span></p>
+			<fieldset>
+				<button type="submit">Registruotis</button>
+			</fieldset>
+		</form>
+	</body>
+</html>
